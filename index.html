@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="../../../CSS.css" rel="stylesheet"/>
+        <script src="//code.jquery.com/game.js"></script>
+        <script src="../../../Java.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/journal/bootstrap.min.css" rel="stylesheet" integrity="sha256-fHWoqb8bPKjLiC7AuV6qy/lt0hrzfwM0ciyAu7Haf5w= sha512-3t2GeiCRNeKhZnUaUMygGiLKZzb/vPhvfw3y1Rt2FCwKuRaLVrOCTpavIYsZ4xqM52mbO7M93NaXbm/9dOA2Og==" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <title>Guess the Color!
+        </title>
+    </head>
+    <body onload = "hide">
+        <h1 class= "head" style="text-align: center; position: top:15px"></br>Guess The Color!</h1>
+        <h2 class= "head" style="text-align: center; position: top:15px">I am thinking of one of these colors: </br>black, blue, fuchsia, gold, ivory, lawngreen, lime, magenta, mediumorchid,</br> navy, rebeccapurple, royalblue, tomato, turquoise, violet</h2>
+        <h3 class= "head" style="text-align: center; position: top:15px">What Color Am I Thinking Of?</h3>
+        <div class = "container">
+                <center>
+                <button
+                class = "btn btn-primary"
+                id = "play-game">Play the Game!</button></br>
+                <button class = "btn btn-primary"
+                id = "play-again"
+                style = "height: 45px">Play Again!</button></br>
+                <input
+                placeholder = "Guess A Color!"
+                id = "guess-color"
+                style = "height: 45px; width: 200px;"
+                align = "center"/>
+                <button
+                class="btn btn-primary"
+                id = "submit-guess"
+                style = "height: 45px;">Guess!</button></br></br>
+                <div
+                id = "answer"
+                disabled>
+                </div>
+                </center>
+        </div>
+    </body>
+</html>
